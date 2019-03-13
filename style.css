@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Handlee', cursive;
+	background-color: #e4dae5;
+	margin: 0;
+	}
+	.image1 {
+		position: absolute;
+		top: 400px;
+		left: 20px;
+	}
+	.image2 {
+		position: absolute;
+		top: 400px;
+		left: 200px;
+}
+nav {
+	background-color: #dcdaef;
+	height: 50px;
+	padding-top: 1px;
+	font-size: 16px;
+}
+
+img {
+	margin: 10px;
+}
+
+p, h1 {
+	padding-left: 5px;
+}
+
+section p {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color:#525151;
+	font-weight: bold;
+}
+a:hover {
+	color:#fcf1e8;
+}
+
+header {
+	background-color: #ededf4;
+	text-align: center;
+	font-size: 45px;
+	background-image: url("https://data.whicdn.com/images/30229982/original.jpg");
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-size: cover;
+}
+.title {
+	font-size: 50px;
+	font-weight: bold;
+
+}
+span {
+	font-weight: bold;
+}
